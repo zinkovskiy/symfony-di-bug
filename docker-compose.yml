@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  symfony-di-bug:
+    container_name: symfony-di-bug
+    build:
+      context: .
+    volumes:
+      - ./:/var/www
